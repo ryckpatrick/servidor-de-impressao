@@ -1,2 +1,6 @@
 # servidor de impressao
- Scripts uteis para servidor de impressão Windows Server.
+    Scripts automação de impressão Windows Server, onde executar uma verificação de se a impressora estar devidamente instalada na maquina.
+
+
+especificação:
+    Windows Server 2008 R1
