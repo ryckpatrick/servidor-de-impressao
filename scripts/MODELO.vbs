@@ -1,4 +1,4 @@
-Rem - Cria  funÁ„o para checar se impressora existe -
+Rem - Cria  fun√ß√£o que verifica se impressora existe -
 Function PrinterExist(strPrinterPath)
 	PrinterExist=False
 	strPrinterPath=ucase(strPrinterPath)
@@ -14,14 +14,14 @@ Function PrinterExist(strPrinterPath)
 	Next
 end function
 
-Rem -Script para checar se impressora existe -
+Rem - fun√ß√£o que verifica se impressora existe -
 Set WshNetwork=Wscript.CreateObject("Wscript.Network")
 if printerexist("\\SERVIDOR QUE DEVE SER SUBSTITUIDO\NOME DA IMPRESSORA") then
 	WshNetwork.removePrinterConnection "\\SERVIDOR QUE DEVE SER SUBSTITUIDO\NOME DA IMPRESSORA"
 end if
 
-Rem -Script para adicionar Impressoras-
+Rem - Script para adicionar Impressoras -
 Set WshNetwork = CreateObject("WScript.Network")
 WshNetwork.AddWindowsPrinterConnection "\\SERVIDOR NOVO\NOME DA IMPRESSORA"
-Rem -Definir a Impressora padr„o-
+Rem - Definir a Impressora como padr√£o -
 WshNetwork.SetDefaultPrinter "\\SERVIDOR NOVO\NOME DA IMPRESSORA"
