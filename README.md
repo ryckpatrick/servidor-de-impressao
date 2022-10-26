@@ -24,6 +24,6 @@ Executar o reset_spooler no servidor.
 
 Adicionar o arquivo *MODELO.vbs* no inicializar das máquinas para verificar se a impressora está instalada. É necessário alterar o arquivo as variáveis:
 
-- SERVIDOR QUE DEVE SER SUBSTITUIDO
-- SERVIDOR NOVO
+- SERVIDOR QUE DEVE SER SUBSTITUIDO (exemplo: \\srv-imp\zebra)
+- SERVIDOR NOVO (exemplo: \\srvnew-imp\zebrazd)
 - NOME DA IMPRESSORA
