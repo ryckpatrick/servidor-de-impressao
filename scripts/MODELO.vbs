@@ -3,7 +3,7 @@ Rem - Cria  função que verifica se impressora existe -
 Function PrinterExist(strPrinterPath)
 	PrinterExist=False
 	strPrinterPath=ucase(strPrinterPath)
-	
+
 	Set WshNetwork = WScript.CreateObject("WScript.Network")
 	Set WSHPrinters = WSHNetwork.EnumPrinterConnections
 
@@ -28,3 +28,5 @@ Rem - Definir a Impressora como padrão -
 WshNetwork.SetDefaultPrinter "\\SERVIDOR NOVO\NOME DA IMPRESSORA"
 
 ' END SCRIPT '
+
+' OBRIGADO POR USAR O SCRIPT '
