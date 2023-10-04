@@ -11,7 +11,7 @@
 Scripts voltados a automação de impressão no Windows Server para verificar se a impressora está devidamente instalada na máquina.
 
 ## Requisitos
-- Windows Server 2008 R1
+- Windows Server 2008 R2
 - Terminal
 
 ## Usage
